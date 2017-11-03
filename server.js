@@ -5,7 +5,7 @@ var votes = {
     gryffindor: 0,
     slytherin: 0,
     hufflepuff: 0,
-    ravenclaw: 0 
+    ravenclaw: 0, 
 }
 
 app.use(express.static(__dirname + '/public'));
