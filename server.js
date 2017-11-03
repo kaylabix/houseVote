@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 
 var votes = {
-    grfindor: 0,
+    gryffindor: 0,
     slytherin: 0,
     hufflepuff: 0,
     ravenclaw: 0 

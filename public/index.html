@@ -1,6 +1,8 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+        <script src="jquery.min.js"></script>
+        <script src="client.js"></script>
     </head>
 
     <style>
@@ -20,16 +22,20 @@
         <div class = "container">
             <div class="row">
                 <div class="col">
-                    <img id="slytherin" class="houses" src="https://vignette.wikia.nocookie.net/harrypotter/images/d/d3/0.61_Slytherin_Crest_Transparent.png/revision/latest?cb=20161020182557">
+                    <img id="slytherin" onclick="vote('slytherin')"class="houses" src="https://vignette.wikia.nocookie.net/harrypotter/images/d/d3/0.61_Slytherin_Crest_Transparent.png/revision/latest?cb=20161020182557">
+                    <div id="slyCount"></div>
                 </div>
                 <div class="col">
-                    <img id="hufflepuff" class="houses" src="https://vignette2.wikia.nocookie.net/harrypotter/images/5/50/0.51_Hufflepuff_Crest_Transparent.png/revision/latest?cb=20161020182518">
+                    <img id="hufflepuff" onclick="vote('hufflepuff')" class="houses" src="https://vignette2.wikia.nocookie.net/harrypotter/images/5/50/0.51_Hufflepuff_Crest_Transparent.png/revision/latest?cb=20161020182518">
+                    <div id="huffCount"></div>
                 </div>
                 <div class ="col">
-                    <img id="gryffindor" class="houses" src="http://vignette1.wikia.nocookie.net/harrypotter/images/8/8e/0.31_Gryffindor_Crest_Transparent.png/revision/latest?cb=20161124074004">
+                    <img id="gryffindor" onclick="vote('gryffindor')" class="houses" src="http://vignette1.wikia.nocookie.net/harrypotter/images/8/8e/0.31_Gryffindor_Crest_Transparent.png/revision/latest?cb=20161124074004">
+                    <div id="gryfCount">fhfhfhf</div>
                 </div>
                 <div class="col">
-                    <img id="ravenclaw" class="houses" src="http://vignette1.wikia.nocookie.net/harrypotter/images/8/8e/0.31_Gryffindor_Crest_Transparent.png/revision/latest?cb=20161124074004">
+                    <img id="ravenclaw" onclick="vote('ravenclaw')" class="houses" src="https://vignette.wikia.nocookie.net/harrypotter/images/2/28/Download_%284%29.jpg/revision/latest?cb=20160729145945">
+                    <div id="ravenCount"></div>
                 </div>
             </div>
         </div>
